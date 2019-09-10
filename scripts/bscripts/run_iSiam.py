@@ -21,7 +21,7 @@ import tensorflow as tf
 CODE_ROOT = '/home/william/iSiam-TF'
 
 # Checkpoint for evaluation
-CHECKPOINT = '/home/william/iSiam-TF/Logs/SiamFC/track_model_checkpoints/SiamFC-iSiam'
+CHECKPOINT = '/home/william/iSiam-TF/Logs/SiamFC/track_model_checkpoints/iSiam'
 
 sys.path.insert(0, CODE_ROOT)
 
