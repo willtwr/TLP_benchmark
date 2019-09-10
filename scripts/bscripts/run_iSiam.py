@@ -5,7 +5,7 @@
 #
 # Distributed under terms of the MIT license.
 
-r"""Support integration with OTB benchmark"""
+r"""Support integration with TLP benchmark"""
 
 from __future__ import absolute_import
 from __future__ import division
@@ -26,8 +26,8 @@ CHECKPOINT = '/home/william/iSiam-TF/Logs/SiamFC/track_model_checkpoints/iSiam'
 sys.path.insert(0, CODE_ROOT)
 
 from utils.misc_utils import auto_select_gpu, load_cfgs
-from inference import inference_wrapper_nl as inference_wrapper
-from inference.tracker_nl import Tracker
+from inference import inference_wrapper_tlp as inference_wrapper
+from inference.tracker_tlp import Tracker
 from utils.infer_utils import Rectangle
 
 # Set GPU
