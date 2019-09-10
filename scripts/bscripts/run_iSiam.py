@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Copyright © 2017 bily     Huazhong University of Science and Technology
+# Copyright © 2019 WR Tan     National Tsing Hua University
 #
 # Distributed under terms of the MIT license.
 
@@ -18,10 +18,10 @@ import time
 import tensorflow as tf
 
 # Code root absolute path
-CODE_ROOT = '/home/william/SiamFC-TensorFlow'
+CODE_ROOT = '/home/william/iSiam-TF'
 
 # Checkpoint for evaluation
-CHECKPOINT = '/home/william/SiamFC-TensorFlow/Logs/SiamFC/track_model_checkpoints/SiamFC-2base-dense-nofbgs'
+CHECKPOINT = '/home/william/iSiam-TF/Logs/SiamFC/track_model_checkpoints/SiamFC-iSiam'
 
 sys.path.insert(0, CODE_ROOT)
 
